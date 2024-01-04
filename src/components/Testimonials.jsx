@@ -51,7 +51,7 @@ const Testimonials = () => {
 
   return (
     <section className="flex text-white flex-wrap gap-y-20 py-10">
-        <div className="flex flex-col gap-y-5 flex-1 min-w-[400px] max-lg:items-center max-lg:text-center max-lg:px-[100px] max-md:px-0">
+        <div className="flex flex-col gap-y-5 flex-1 min-w-[400px] max-sm:min-w-full max-lg:items-center max-lg:text-center max-lg:px-[100px] max-md:px-0">
             <p className='text-fuchsia-500 font-bold'>TESTIMONIALS</p>
             <div>
                 <h2 className="font-light text-[44px]">WHAT THEY</h2>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                     <div className="flex flex-col gap-y-10">
                     <p className="text-[20px]">{item.text}</p>
                     <p className="text-[20px]">
-                        <span className="text-fuchsia-500 font-medium">{item.name}</span> - {item.profession}</p>   
+                        <span className="text-fuchsia-500 font-bold">{item.name}</span> - {item.profession}</p>   
                     </div>  
                 )})}
 

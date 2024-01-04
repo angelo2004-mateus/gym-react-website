@@ -11,7 +11,7 @@ const ContactMe = () => {
         </h2>
 
         <div className='bg-[#808080] w-[450px] max-sm:w-full py-5 flex justify-around rounded'>
-            <input className='outline-none border-none bg-[#808080] text-white' type="text" placeholder='Enter your Email Address here' />
+            <input className='outline-none border-none bg-[#808080]  text-white' type="text" placeholder='Enter your Email Address here' />
             <Button text={'Contact Us'} className={'bg-gradient-to-br  from-fuchsia-500 to-violet-500 text-white px-5'}/>
         </div>
     </section>
